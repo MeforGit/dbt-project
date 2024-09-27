@@ -1,0 +1,11 @@
+dbt-project:
+  outputs:
+    dev:
+      database: customer
+      host: localhost
+      password: "Contraseña12345678"
+      port: 1433
+      threads: 1
+      type: sqlserver
+      user: sa
+  target: dev
